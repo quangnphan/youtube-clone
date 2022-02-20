@@ -1,0 +1,22 @@
+.video-player{
+    width: 100%;
+    height: 500px;
+}
+@media (max-width: 1000px){
+    .video-player{
+        width: 90%;
+        height: 400px;
+        display: flex;
+        margin: auto;
+    }
+}
+@media(max-width: 790px){
+    .video-player{
+        height: 350px;
+    }
+}
+@media (max-width: 500px){
+    .video-player{
+        height: 250px;
+    }
+}
