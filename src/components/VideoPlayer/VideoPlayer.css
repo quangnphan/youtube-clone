@@ -2,11 +2,6 @@
     display: flex;
     justify-content: center;
 }
-@media(max-width: 1000px){
-    .videoplayer{
-        flex-direction: column;
-    }
-}
 .videoplayer-videodetails{
     flex: 0.7;
 }
@@ -23,4 +18,14 @@
 .videoplayer-channeldesc{
     color: gray;
     font-size: small;
+}
+@media(max-width: 1000px){
+    .videoplayer{
+        flex-direction: column;
+        width: 95%;
+        margin: auto;
+    }
+    .videoplayer-video, .videoplayer-videoinfo{
+        margin: auto;
+    }
 }

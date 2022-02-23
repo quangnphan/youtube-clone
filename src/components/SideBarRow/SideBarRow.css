@@ -29,3 +29,11 @@
 .sidebarrow.selected .sidebarrow-title{
     font-weight: bold;
 }
+@media(max-width: 600px){
+    .sidebarrow{
+        padding: 10px;
+    }
+    .sidebarrow-title{
+        margin-left: 5px;
+    }
+}
